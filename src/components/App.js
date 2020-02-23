@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import Nav from './Nav'
-import SearchArea from './SearchArea'
+import HomeScreenMenu from './HomeScreenMenu'
+// import SearchArea from './SearchArea'
+// import SignupPage
 
 
 function App() {
   return (
     <div className="App">
       <Nav />
-      <SearchArea />
+      <HomeScreenMenu />
     </div>
   );
 }
