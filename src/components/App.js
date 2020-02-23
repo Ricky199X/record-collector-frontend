@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Nav from './Nav'
 import HomeScreenMenu from './HomeScreenMenu'
 // import SearchArea from './SearchArea'
-// import SignupPage
 
 
 function App() {
