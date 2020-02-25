@@ -1,6 +1,28 @@
-import React from 'react'
+import React, { Component } from 'react';
 
-class LoginForm extends React.Component {
+class LoginForm extends Component {
+
+   constructor(props) {
+      super(props) {
+
+         this.state = {
+            username: '',
+            email: '',
+            password: ''
+         }
+      }
+   }
+
+   handleOnSubmit(event) {
+
+   }
+
+   handleOnChange(event) {
+      this.setState({
+         username: event.target.value,
+      });
+   }
+  
    render() {
       return (
          <div className = 'login-form'>
