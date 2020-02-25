@@ -6,9 +6,9 @@ const Nav = () => {
    return (
       <nav>
          <div className="nav-wrapper container">
-            <a href='/' className="brand-logo">Record Collector</a>
+            <a className="brand-logo">Record Collector</a>
             <ul className = "right">
-               <li><a href="/">Home</a></li>
+               <li><a href="/home">Home</a></li>
                <li><a href="/albums">Records</a></li>
                <li><a href="/your-albums">Your Records</a></li>
             </ul>
