@@ -2,7 +2,7 @@
 import React from 'react'
 
 
-const HomeScreenMenu = () => {
+const LandingPage = () => {
    return (
       <div className="container">
          <div className="greeting">
@@ -18,4 +18,4 @@ const HomeScreenMenu = () => {
    )
 }
 
-export default HomeScreenMenu
+export default LandingPage
