@@ -16,9 +16,8 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Nav />
-        <Route 
-          path='/' component={Home}
-          path='/albums' component={Albums}  
+        <Route path='/' component={Home} />
+        <Route path='/albums' component={Albums} /> 
         />
       </div>
     </BrowserRouter>
