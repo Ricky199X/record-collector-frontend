@@ -1,6 +1,7 @@
 // functional component
 
 import React from 'react'
+import { Link, NavLink } from 'react-router-dom'
 
 const Nav = () => {
    return (
@@ -8,9 +9,9 @@ const Nav = () => {
          <div className="nav-wrapper container">
             <a className="brand-logo">Record Collector</a>
             <ul className = "right">
-               <li><a href="/home">Home</a></li>
-               <li><a href="/albums">Records</a></li>
-               <li><a href="/your-albums">Your Records</a></li>
+               <li><Link to="/">Home</Link></li>
+               <li><Link to="/albums">Records</Link></li>
+               <li><Link to="/your-albums">Your Records</Link></li>
             </ul>
          </div>
       </nav>
