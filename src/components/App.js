@@ -4,6 +4,8 @@ import { BrowserRouter, Route } from 'react-router-dom'
 
 import Nav from './Nav'
 import LandingPage from './LandingPage'
+import Home from './containers/Home'
+import Albums from './containers/Albums'
 // import SignupForm from './forms/SignupForm'
 // import LoginForm from './forms/LoginForm'
 // import SearchArea from './SearchArea'
@@ -14,7 +16,10 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Nav />
-        <LandingPage />
+        <Route 
+          path='/' component={Home}
+          path='/albums' component={Albums}  
+        />
       </div>
     </BrowserRouter>
   );
