@@ -1,6 +1,8 @@
+Login Flow:
+1. Open up app -> Landing Page 
 
 Immediate To-dos
-1. Set up react router
+1. Fix up landing page for cleaner transition -> should only be the links, then they should transition to each individual component
 2. 
 
 
@@ -11,4 +13,5 @@ Build Search Area - DONE
 Build Sign Up Form - DONE
 Build Login Form - DONE
 Build Home page class component - DONE
-
+Set up react router - Nav Bar links working - DONE
+Set up Link tos for landing page options (Signup, Login) - DONE

@@ -6,7 +6,7 @@ const Albums = () => {
    return (
       <div className = 'container'>
          <h4 className="center">
-            These are all the albums!
+            {/* These are all the albums! */}
          </h4>
       </div>
    )

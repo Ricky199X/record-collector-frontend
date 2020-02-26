@@ -4,7 +4,7 @@ const Home = () => {
    return (
       <div className = 'container'>
          <h4 className="center">
-            This is the home page
+            {/* This is the home page */}
          </h4>
       </div>
    )

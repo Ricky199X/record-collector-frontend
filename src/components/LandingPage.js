@@ -2,6 +2,7 @@
 import React from 'react'
 
 
+
 const LandingPage = () => {
    return (
       <div className="container">
@@ -14,8 +15,12 @@ const LandingPage = () => {
          <div className="login-link">
             <a href="login">Log In</a>
          </div>
+         
       </div>
    )
 }
 
 export default LandingPage
+
+// <Route exact path='/sign_up' component={SignupForm} />
+//         <Route path='/login' component={LoginForm} /> 

@@ -6,8 +6,9 @@ import Nav from './Nav'
 import LandingPage from './LandingPage'
 import Home from './containers/Home'
 import Albums from './containers/Albums'
-// import SignupForm from './forms/SignupForm'
-// import LoginForm from './forms/LoginForm'
+
+import SignupForm from './forms/SignupForm'
+import LoginForm from './forms/LoginForm'
 // import SearchArea from './SearchArea'
 
 
@@ -19,6 +20,8 @@ function App() {
         <Route exact path='/' component={Home} />
         <Route path='/albums' component={Albums} /> 
         <LandingPage />
+        <Route exact path='/sign_up' component={SignupForm} />
+        <Route path='/login' component={LoginForm} /> 
       </div>
     </BrowserRouter>
   );
