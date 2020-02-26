@@ -15,7 +15,6 @@ class LandingPage extends React.Component {
             <div className="login-link">
                <a href="login">Log In</a>
             </div>
-            
          </div>
       )
    }

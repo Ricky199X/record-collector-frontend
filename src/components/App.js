@@ -5,12 +5,15 @@ import LandingPage from './LandingPage'
 // import SearchArea from './SearchArea'
 
 
-function App() {
-  return (
+class App extends React.Component {
+
+  render() {
+    return (
       <div className="App">
-        <LandingPage />
+          App
       </div>
-  );
+    );
+  }
 }
 
 export default App;
