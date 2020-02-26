@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import LandingPage from './LandingPage'
-import SignupForm from './forms/SignupForm'
 
 // import SearchArea from './SearchArea'
 
@@ -9,7 +8,7 @@ import SignupForm from './forms/SignupForm'
 function App() {
   return (
       <div className="App">
-        
+        <LandingPage />
       </div>
   );
 }
